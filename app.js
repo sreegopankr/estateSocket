@@ -5,7 +5,7 @@ dotenv.config();
 
 const io = new Server({
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://kopzestate.netlify.app/",
   },
 });
 
