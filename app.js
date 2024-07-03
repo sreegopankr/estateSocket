@@ -4,9 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const io = new Server({
-  cors: {
-    origin: "https://kopzestate.netlify.app/",
-  },
+  cors,
 });
 
 console.log("its working")
