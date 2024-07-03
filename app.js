@@ -4,7 +4,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const io = new Server({
-  cors,
+  cors: {
+    origin: "*",
+  },
 });
 
 console.log("its working")
